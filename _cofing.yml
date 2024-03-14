@@ -1,0 +1,2 @@
+# Site settings
+include: [".well-known"]
