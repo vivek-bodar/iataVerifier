@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/v2"
+  ],
+  "id": "iataverifier.onrender.com",
+  "authentication": [
+    "iataverifier.onrender.com#key-1"
+  ],
+  "verificationMethod": [
+    {
+      "id": "iataverifier.onrender.com#key-1",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "iataverifier.onrender.com",
+      "publicKeyBase58": "ChSRvUt7v49pF972ANSG1fWaEXF1K8Aky8snkP3av76b"
+    }
+  ],
+  "alsoKnownAs": [],
+  "assertionMethod": [
+    "iataverifier.onrender.com#key-1"
+  ]
+}
